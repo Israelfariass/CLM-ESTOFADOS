@@ -1,0 +1,17 @@
+.urgent-hover {
+    cursor: pointer;
+    color: #ffcc00;
+    font-weight: 700;
+    display: inline-block;
+    transition: animation 0.3s;
+}
+
+.urgent-hover:hover {
+    animation: wiggle 1s infinite;
+}
+
+@keyframes wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(-3deg); }
+    75% { transform: rotate(3deg); }
+}
